@@ -28,13 +28,13 @@ defineProps({
         class="cart-controls m-auto w-1/2 flex flex-row justify-between items-center bg-orange-600 py-2 px-3 rounded-full hover:bg-orange-700"
       >
         <button class="border py-2 px-1 border-white rounded-full" @click="decrementItem(item)">
-          <img src="../assets/images/icon-decrement-quantity.svg" alt="" />
+          <img src="/images/icon-decrement-quantity.svg" alt="" />
         </button>
         <span class="text-white">
           {{ item.quantity }}
         </span>
         <button class="border p-1 border-white rounded-full" @click="incrementItem(item)">
-          <img src="../assets/images/icon-increment-quantity.svg" alt="" />
+          <img src="/images/icon-increment-quantity.svg" alt="" />
         </button>
       </div>
 
@@ -43,7 +43,7 @@ defineProps({
         @click="addItem(item)"
         class="add-to-cart m-auto flex flex-row items-center gap-2 hover:border-orange-700 hover:text-orange-700 bg-white rounded-full border py-2 px-6"
       >
-        <img src="../assets/images/icon-add-to-cart.svg" alt="" />
+        <img src="/images/icon-add-to-cart.svg" alt="" />
         <span>Add to cart</span>
       </button>
     </div>

@@ -20,7 +20,7 @@ function getTotal(stuff) {
 <template>
   <div v-if="cart.confirmOrder" class="confirm-order">
     <div class="content rounded-lg p-6">
-      <img src="../assets/images/icon-order-confirmed.svg" class="mb-3" alt="" srcset="" />
+      <img src="/images/icon-order-confirmed.svg" class="mb-3" alt="" srcset="" />
       <h3 class="text-2xl font-bold">Order Confirmed</h3>
       <p class="text-sm mb-6">We hope you enjoy your food!</p>
       <ul class="bg-stone-100 p-3 rounded-lg">
